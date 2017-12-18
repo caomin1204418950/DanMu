@@ -86,7 +86,7 @@
             var config={
                 authDomain:'wd9757746440ikjvmf.wilddog.com',
                 syncURL:"https://wd9757746440ikjvmf.wilddogio.com"
-
+                
             }
             wilddog.initializeApp(config);
             var ref = wilddog.sync().ref();
@@ -100,7 +100,7 @@
             
             });
             $('.s_txt').keypress((event)=>{
-                if(event.keycode=='13'){
+                if(event.keyCode=='13'){
                     // trigger 触发事件
                     $('.s_sub').trigger('click');
                 }
